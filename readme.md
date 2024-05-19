@@ -8,8 +8,8 @@
 ### Prerequisites
 Ensure you have the following installed:
 - C++ compiler (e.g., g++, clang++)
-- CMake
-- Git
+- CMake (https://cmake.org/download/)
+- Git (osx https://git-scm.com/download/mac) (windows: https://gitforwindows.org/) (linux: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - Human Brain
 
 ### Setup Instructions
