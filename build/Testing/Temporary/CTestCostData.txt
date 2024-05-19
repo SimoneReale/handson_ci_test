@@ -1,0 +1,13 @@
+Problem1.BalancedNum 0 0
+Problem2.IsIsogram 0 0
+Problem3.PossiblyPerfect 0 0
+Problem4.FindOdd 0 0
+Problem5.EncodeDecode 0 0
+Problem6.Bananas 0 0
+---
+Problem1.BalancedNum
+Problem2.IsIsogram
+Problem3.PossiblyPerfect
+Problem4.FindOdd
+Problem5.EncodeDecode
+Problem6.Bananas
