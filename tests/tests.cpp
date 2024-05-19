@@ -8,7 +8,7 @@ TEST(Problem1, BalancedNum) {
 
 TEST(Problem2, IsIsogram) {
     EXPECT_TRUE(is_isogram("Dermatoglyphics"));
-    EXPECT_FALSE(is_isogram("aba"))
+    EXPECT_FALSE(is_isogram("aba"));
 }
 
 TEST(Problem3, PossiblyPerfect) {
@@ -18,8 +18,6 @@ TEST(Problem3, PossiblyPerfect) {
 TEST(Problem4, FindOdd) {
     EXPECT_EQ(findOdd({7}), 7);
     EXPECT_EQ(findOdd({0}), 0);
-    
-    
 }
 
 TEST(Problem5, EncodeDecode) {
