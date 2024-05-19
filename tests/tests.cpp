@@ -12,7 +12,7 @@ TEST(Problem2, IsIsogram) {
 }
 
 TEST(Problem3, PossiblyPerfect) {
-    EXPECT_TRUE(possibly_perfect({'B', 'A', '_', '_'}, {'B', 'A', 'C', 'C'}))
+    EXPECT_TRUE(possibly_perfect({'B', 'A', '_', '_'}, {'B', 'A', 'C', 'C'}));
 }
 
 TEST(Problem4, FindOdd) {
