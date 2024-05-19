@@ -1,10 +1,10 @@
-Start testing: May 19 13:26 CEST
+Start testing: May 19 13:39 CEST
 ----------------------------------------------------------
 1/6 Testing: Problem1.BalancedNum
 1/6 Test: Problem1.BalancedNum
 Command: "/home/ant0nius/Didattica/SE4HPC/handson_ci_test/build/tests" "--gtest_filter=Problem1.BalancedNum" "--gtest_also_run_disabled_tests"
 Directory: /home/ant0nius/Didattica/SE4HPC/handson_ci_test/build
-"Problem1.BalancedNum" start time: May 19 13:26 CEST
+"Problem1.BalancedNum" start time: May 19 13:39 CEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = Problem1.BalancedNum
@@ -43,10 +43,10 @@ Expected equality of these values:
 
  1 FAILED TEST
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Failed.
-"Problem1.BalancedNum" end time: May 19 13:26 CEST
+"Problem1.BalancedNum" end time: May 19 13:39 CEST
 "Problem1.BalancedNum" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -54,7 +54,7 @@ Test Failed.
 2/6 Test: Problem2.IsIsogram
 Command: "/home/ant0nius/Didattica/SE4HPC/handson_ci_test/build/tests" "--gtest_filter=Problem2.IsIsogram" "--gtest_also_run_disabled_tests"
 Directory: /home/ant0nius/Didattica/SE4HPC/handson_ci_test/build
-"Problem2.IsIsogram" start time: May 19 13:26 CEST
+"Problem2.IsIsogram" start time: May 19 13:39 CEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = Problem2.IsIsogram
@@ -80,7 +80,7 @@ Expected: true
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Failed.
-"Problem2.IsIsogram" end time: May 19 13:26 CEST
+"Problem2.IsIsogram" end time: May 19 13:39 CEST
 "Problem2.IsIsogram" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -88,7 +88,7 @@ Test Failed.
 3/6 Test: Problem3.PossiblyPerfect
 Command: "/home/ant0nius/Didattica/SE4HPC/handson_ci_test/build/tests" "--gtest_filter=Problem3.PossiblyPerfect" "--gtest_also_run_disabled_tests"
 Directory: /home/ant0nius/Didattica/SE4HPC/handson_ci_test/build
-"Problem3.PossiblyPerfect" start time: May 19 13:26 CEST
+"Problem3.PossiblyPerfect" start time: May 19 13:39 CEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = Problem3.PossiblyPerfect
@@ -118,7 +118,7 @@ Expected: false
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Failed.
-"Problem3.PossiblyPerfect" end time: May 19 13:26 CEST
+"Problem3.PossiblyPerfect" end time: May 19 13:39 CEST
 "Problem3.PossiblyPerfect" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -126,7 +126,7 @@ Test Failed.
 4/6 Test: Problem4.FindOdd
 Command: "/home/ant0nius/Didattica/SE4HPC/handson_ci_test/build/tests" "--gtest_filter=Problem4.FindOdd" "--gtest_also_run_disabled_tests"
 Directory: /home/ant0nius/Didattica/SE4HPC/handson_ci_test/build
-"Problem4.FindOdd" start time: May 19 13:26 CEST
+"Problem4.FindOdd" start time: May 19 13:39 CEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = Problem4.FindOdd
@@ -173,7 +173,7 @@ Expected equality of these values:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Failed.
-"Problem4.FindOdd" end time: May 19 13:26 CEST
+"Problem4.FindOdd" end time: May 19 13:39 CEST
 "Problem4.FindOdd" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -181,7 +181,7 @@ Test Failed.
 5/6 Test: Problem5.EncodeDecode
 Command: "/home/ant0nius/Didattica/SE4HPC/handson_ci_test/build/tests" "--gtest_filter=Problem5.EncodeDecode" "--gtest_also_run_disabled_tests"
 Directory: /home/ant0nius/Didattica/SE4HPC/handson_ci_test/build
-"Problem5.EncodeDecode" start time: May 19 13:26 CEST
+"Problem5.EncodeDecode" start time: May 19 13:39 CEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = Problem5.EncodeDecode
@@ -213,7 +213,7 @@ Expected equality of these values:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Failed.
-"Problem5.EncodeDecode" end time: May 19 13:26 CEST
+"Problem5.EncodeDecode" end time: May 19 13:39 CEST
 "Problem5.EncodeDecode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -221,7 +221,7 @@ Test Failed.
 6/6 Test: Problem6.Bananas
 Command: "/home/ant0nius/Didattica/SE4HPC/handson_ci_test/build/tests" "--gtest_filter=Problem6.Bananas" "--gtest_also_run_disabled_tests"
 Directory: /home/ant0nius/Didattica/SE4HPC/handson_ci_test/build
-"Problem6.Bananas" start time: May 19 13:26 CEST
+"Problem6.Bananas" start time: May 19 13:39 CEST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = Problem6.Bananas
@@ -249,8 +249,8 @@ Expected equality of these values:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Failed.
-"Problem6.Bananas" end time: May 19 13:26 CEST
+"Problem6.Bananas" end time: May 19 13:39 CEST
 "Problem6.Bananas" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 19 13:26 CEST
+End testing: May 19 13:39 CEST

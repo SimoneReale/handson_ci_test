@@ -196,7 +196,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=ExerciseSession
+CMAKE_PROJECT_NAME:STATIC=ExerciseSessionCICD
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.11.0
@@ -276,13 +276,13 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-ExerciseSession_BINARY_DIR:STATIC=/home/ant0nius/Didattica/SE4HPC/handson_ci_test/build
+ExerciseSessionCICD_BINARY_DIR:STATIC=/home/ant0nius/Didattica/SE4HPC/handson_ci_test/build
 
 //Value Computed by CMake
-ExerciseSession_IS_TOP_LEVEL:STATIC=ON
+ExerciseSessionCICD_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-ExerciseSession_SOURCE_DIR:STATIC=/home/ant0nius/Didattica/SE4HPC/handson_ci_test
+ExerciseSessionCICD_SOURCE_DIR:STATIC=/home/ant0nius/Didattica/SE4HPC/handson_ci_test
 
 //Directory under which to collect all populated content
 FETCHCONTENT_BASE_DIR:PATH=/home/ant0nius/Didattica/SE4HPC/handson_ci_test/build/_deps
