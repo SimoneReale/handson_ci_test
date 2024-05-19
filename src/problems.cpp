@@ -2,7 +2,6 @@
 #include <string>
 #include <unordered_set>
 
-
 // ############################### PROBLEM 1: Balanced Number [lvl 1] #############################################
 //  A balanced number is a number where the sum of digits to the left of the middle digit(s)
 //  and the sum of digits to the right of the middle digit(s) are equal.
