@@ -1,9 +1,9 @@
 # CI/CD and Unit Testing Exercise Session
 
 ## Getting Started
-Git, the simple guide: https://rogerdudler.github.io/git-guide/
-Google Test Primer: https://google.github.io/googletest/primer.html
-A selected list of useful actions: https://github.com/sdras/awesome-actions
+1. **Git, the simple guide:** https://rogerdudler.github.io/git-guide/
+2. **Google Test Primer:** https://google.github.io/googletest/primer.html
+3. **A selected list of useful actions:** https://github.com/sdras/awesome-actions
 
 ### Prerequisites
 Ensure you have the following installed:
