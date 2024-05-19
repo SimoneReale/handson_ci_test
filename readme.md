@@ -15,16 +15,18 @@ Ensure you have the following installed:
 ### Setup Instructions
 
 1. **Use the template:**
-'''sh
+```sh
 https://github.com/SimoneReale/handson_ci_test
 cd your-repo-name
+```
    
 3. **Build the project:**
-'''sh
+```sh
 mkdir build
 cd build
 cmake ..
 cmake --build .
+```
 
 
 
