@@ -20,4 +20,5 @@ jobs:
       run: cmake --build build
 
     - name: Transfer tests via SCP
-      run: scp -i ${{ secrets.SSH_PRIVATE_KEY }} tests a08trb41@login.g100.cineca.it:~
+      run: scp -o StrictHostKeyChecking=no -i ${{ secrets.SSH_PRIVATE_KEY }} tests a08trb41@login.g100.cineca.it:~
+
