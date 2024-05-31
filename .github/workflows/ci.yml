@@ -22,8 +22,8 @@ jobs:
     - name: Transfer tests via SCP
       uses: appleboy/scp-action@master
       with:
-        host: ${{ secrets.SSH_HOST }}
-        username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }}  # Add your private SSH key as a secret
-        source: "tests"  # Modify the path to your tests executable
+        host: ${{secrets.SSH_HOST}}
+        username: ${{secrets.USERNAME}}
+        key: ${{secrets.SSH_PRIVATE_KEY}}
+        source: "tests"
         target: "~" 
