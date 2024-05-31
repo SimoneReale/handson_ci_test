@@ -24,7 +24,5 @@ jobs:
 
     - name: Transfer tests via SCP
       run: |
-        sshpass -p "${{ secrets.SSH_PRIVATE_KEY }}" scp -o StrictHostKeyChecking=no tests a08trb41@login.g100.cineca.it:~
-      env:
-        SSH_PASSWORD: ${{ secrets.SSH_PRIVATE_KEY }}
+        sshpass -p "${{ secrets.SSH_PRIVATE_KEY }}" scp -o StrictHostKeyChecking=no /home/runner/work/handson_ci_test/handson_ci_test/build/tests a08trb41@login.g100.cineca.it:~
 
