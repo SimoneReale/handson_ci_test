@@ -19,9 +19,6 @@ jobs:
     - name: Build
       run: cmake --build build
 
-    - name: Run Tests
-      run: ctest --test-dir build
-
     - name: Transfer tests via SCP
       uses: appleboy/scp-action@master
       with:
