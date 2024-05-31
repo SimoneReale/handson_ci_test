@@ -19,6 +19,12 @@ jobs:
     - name: Build
       run: cmake --build build
 
+    - name: Install sshpass
+      run: sudo apt-get update && sudo apt-get install -y sshpass
+
     - name: Transfer tests via SCP
-      run: scp -o StrictHostKeyChecking=no -i ${{ secrets.SSH_PRIVATE_KEY }} tests a08trb41@login.g100.cineca.it:~
+      run: |
+        sshpass -p "${{ secrets.SSH_PRIVATE_KEY }}" scp tests a08trb41@login.g100.cineca.it:~
+      env:
+        SSH_PASSWORD: ${{ secrets.SSH_PRIVATE_KEY }}
 
