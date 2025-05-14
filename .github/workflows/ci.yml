@@ -18,11 +18,3 @@ jobs:
 
     - name: Build
       run: cmake --build build
-
-    - name: Install sshpass
-      run: sudo apt-get update && sudo apt-get install -y sshpass
-
-    - name: Transfer tests via SCP
-      run: |
-        sshpass -p "${{ secrets.SSH_PRIVATE_KEY }}" scp -o StrictHostKeyChecking=no /home/runner/work/handson_ci_test/handson_ci_test/build/tests a08trb41@login.g100.cineca.it:~
-
